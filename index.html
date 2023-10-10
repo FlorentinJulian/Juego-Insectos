@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Atrapa al insecto</title>
+</head>
+<body>
+    <div class="screen">
+        <h1>Atrapa al insecto</h1>
+        <button class="btn" id="start-btn">Jugar juego</button>
+    </div>
+    <div class="screen">
+        <h1>Cual es tu insecto " favorito " ?</h1>
+        <ul class="insects-list">
+            <li>
+                <button class="choose-insect-btn">
+                    <p>Mosca</p>
+                    <img src="Mosca.png" alt="mosca">
+                </button>
+            </li>
+            <li>
+                <button class="choose-insect-btn">
+                    <p>Mosquito</p>
+                    <img src="Mosquito.png" alt="mosquito">
+                </button>
+            </li>
+            <li>
+                <button class="choose-insect-btn">
+                    <p>Abeja</p>
+                    <img src="abeja.png" alt="abeja">
+                </button>
+            </li>
+            <li>
+                <button class="choose-insect-btn">
+                    <p>Araña</p>
+                    <img src="araña.png" alt="araña">
+                </button>
+            </li>
+        </ul>
+    </div>
+    <div class="screen game-container" id="game-container">
+        <h3 id="time" class="time">Tiempo: 00:00</h3>
+        <h3 id="score" class="score">Puntuaje: 0</h3>
+        <h5 id="message" class="message">
+            Ya te molestaste ? <br>
+            Estas jugando un juego imposible! 
+        </h5>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
